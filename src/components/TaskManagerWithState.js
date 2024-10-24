@@ -8,6 +8,7 @@ function TaskManagerWithState() {
     const [taskInputState, setTaskInputState] = useState('');
     const taskCountRef = useRef(0);
     function addTask() {
+        if(!taskInputState) return;
         taskCountRef.current++;
         tasksState.push({
             id:  taskCountRef.current,

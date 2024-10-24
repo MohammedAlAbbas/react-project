@@ -1,0 +1,5 @@
+$completedTaskColor: green;
+.task-completed {
+    color: $completedTaskColor;
+    text-decoration-line: line-through;
+}

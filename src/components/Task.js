@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './Task.css';
+import './Task.scss';
 export default function Task({id, task, onClickDeleteTask, onTaskCheckBoxChange}) {
 
    // const [isTaskCompleted, setIsTaskCompleted] = useState(false);
