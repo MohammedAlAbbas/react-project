@@ -1,10 +1,10 @@
-import TaskManager from "./TaskManager";
+import TaskManagerWithState from "../components/TaskManagerWithState";
 
 export default function About() {
     return (
         <div>
             <p>This is about page.</p>
-            <TaskManager/>
+            <TaskManagerWithState/>
         </div>
     )
 }
